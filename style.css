@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap");
+body {
+  background: #2f3542;
+  color: rgb(255, 255, 255);
+}
+
+h1, h2, h3, h4 {
+  font-family: "Raleway", sans-serif;
+}
+
+nav.navbar .navbar-brand {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+nav.navbar .navbar-brand .nobold {
+  font-weight: 300;
+}
+nav.navbar .navbar-nav {
+  font-weight: 600;
+  font-size: 14px;
+}
+nav.navbar .navbar-nav.ms-auto .nav-item {
+  margin-left: 10px;
+}
+
+header {
+  position: relative;
+  background-image: url("99-992191_wallpaper-linear-gradient-green-blue-spring-green-dark.jpg");
+  background-size: cover;
+  background-position: center;
+}
+header .body-blend-overlay {
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #2f3542);
+}
+header .gradient-overlay {
+  height: 100%;
+  background: rgba(150, 0, 175, 0.9);
+  background: linear-gradient(145deg, rgba(150, 0, 175, 0.9) 0%, rgba(26, 11, 133, 0.9) 59%, rgba(52, 51, 70, 0.9) 100%);
+  color: #FFF;
+}
+header .gradient-overlay .inner {
+  padding: 180px 0;
+  font-family: "Raleway", sans-serif;
+}
+header .gradient-overlay .inner h1 {
+  text-transform: uppercase;
+  font-size: 42px;
+  font-weight: 700;
+}
+header .gradient-overlay .inner p {
+  font-size: 18px;
+  margin-top: -8px;
+}
+
+.btn.btn-gradient {
+  background: #e754ff;
+  background: linear-gradient(145deg, #e754ff 0%, #6f0082 100%);
+  color: #FFF;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 40px;
+  border: none;
+  font-size: 14px;
+  padding: 10px 35px;
+  transition: 1s;
+}
+.btn.btn-gradient:hover {
+  opacity: 0.6;
+}
+
+.post-header-games {
+  margin-top: -50px;
+}
+
+.game-section-header {
+  transform: translateY(0px);
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 20px 0 10px;
+}
+
+.card-game, a.card-game {
+  transform: translateY(0px);
+  display: block;
+  transition: 0.5s;
+  text-decoration: none;
+  margin-bottom: 20px;
+  opacity: 0.75;
+}
+.card-game .preview, a.card-game .preview {
+  transition: 0.5s;
+  border: 3px solid transparent;
+  background-size: cover;
+  background-origin: border-box;
+  border-radius: 4px;
+  width: 100%;
+  height: 250px;
+}
+.card-game .title, a.card-game .title {
+  transition: 0.5s;
+  color: #adadad;
+  margin-top: 3px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.card-game:hover, a.card-game:hover {
+  transform: translateY(-5px);
+  opacity: 1;
+}
+.card-game:hover .preview, a.card-game:hover .preview {
+  border: 3px solid white;
+}
+.card-game:hover .title, a.card-game:hover .title {
+  color: #fff;
+}
+.card-game.wide-game .preview, a.card-game.wide-game .preview {
+  border-radius: 10px;
+  height: 200px;
+}
